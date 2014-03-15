@@ -27,7 +27,7 @@ Ext.define("Communion.view.Login", {
                         xtype: 'textfield',
                         name: 'txtUserName', // We use this to get the values from the form object i.e. form.getValues().txtUserName
                         placeHolder: 'Username',
-                        value: 'swathi',
+                        value: 'user',
                         style: 'background: #EEE;',
                         required: true
                     },
@@ -35,7 +35,7 @@ Ext.define("Communion.view.Login", {
                         xtype: 'passwordfield',
                         name: 'txtPassword',
                         placeHolder: 'Password',
-                        value: 'swathi',
+                        value: 'user',
                         style: 'background: #EEE;',
                         required: true
                     }
