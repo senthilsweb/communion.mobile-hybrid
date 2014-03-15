@@ -30,12 +30,7 @@ Ext.define('Communion.view.About', {
                     '<tr>'+
                     '<td class="vmAbout_Label">Developed With : </td>'+
                     '<td  class="vmAbout_Text"> PhoneGap and Sencha touch 2.0 </td>'+
-                    '</tr>'+
-                    '<tr>'+
-                    '<td  class="vmAbout_Label">Developed By : </td>'+
-                    '<td  class="vmAbout_Text">'+
-                    '<a href="http://www.vmokshagroup.com/" target="_blank"> VMOKSHA TECHNOLOGIES </a></td>'+
-                    '</tr>'+
+                    '</tr>'+                   
                     '<tr>'+
                     '<td  class="vmAbout_Label">Version : </td>'+
                     '<td  class="vmAbout_Text"> 1.0 </td>'+
