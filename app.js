@@ -8,9 +8,9 @@
 
 
 Ext.application({
-    name: 'vmlabs',
+    name: 'Communion',
     Category: '',
-    requires: ['vmlabs.util.InitSQLite'],
+    requires: ['Communion.util.InitSQLite'],
     models: ['DepartmentModel', 'EventsModel', 'ResidentsModel', 'AddressModel', 'YellowPagesModel','TodoModel'],
     views: ['Login', 'Navigation', 'DepartmentList', 'Header', 'Footer', 'TitleBar', 'LoginTitleBar', 'Events', 'AddressForm', 'NavigationTitleBar', 'Residents', 'ResidentDetailView', 'AdminStaff', 'YellowPages', 'ClassifiedsDetails', 'Settings', 'AdminStaffDetailView','TodoView','TodoCreateView','Address'],
     controllers: ['LoginController', 'NavigationController', 'DepartmentController', 'TitleBarController', 'LogoutController', 'ResidentsController','BackButtonController', 'ClassifiedsController', 'AdminStaffController','TodoController', 'AddressController', 'SettingsController'],
@@ -38,9 +38,9 @@ Ext.application({
             // Destroy the #appLoadingIndicator element
             //Ext.fly('appLoadingIndicator').destroy();
             //Change the index.html background color to white
-            //Ext.get('vmlabs-pg-body').setStyle('backgroundColor', 'white');
+            //Ext.get('Communion-pg-body').setStyle('backgroundColor', 'white');
             /*Todo: Check if authentication ticket already available*/
-            Ext.Viewport.add(Ext.create('vmlabs.view.Login'));
+            Ext.Viewport.add(Ext.create('Communion.view.Login'));
             Ext.Viewport.getLayout().setAnimation({type: 'slide', direction: 'right'});
         });
         task.delay(100);
