@@ -1,6 +1,6 @@
-Ext.define('vmlabs.view.LoginTitleBar', {
+Ext.define('Communion.view.LoginTitleBar', {
     extend: 'Ext.TitleBar',
-    xtype: 'vmlabslogintitlebar', 
+    xtype: 'Communionlogintitlebar', 
     config: {
         docked: 'top',
         title: '<img src="resources/images/communion_blue.png" style="padding-left:0%;padding-top:10%"/>',

@@ -30,9 +30,9 @@ var addressView = Ext.create('Ext.Panel', {
 
 
 
-Ext.define('vmlabs.controller.AddressController', {
+Ext.define('Communion.controller.AddressController', {
     extend: 'Ext.app.Controller',
-    //requires: ['vmlabs.view.Address'],
+    //requires: ['Communion.view.Address'],
     config: {
         refs: {
             addressDtls: 'address #myAddress',
@@ -102,7 +102,7 @@ Ext.define('vmlabs.controller.AddressController', {
                 + '</address>';
 
 
-                var add = Ext.create('vmlabs.view.Address');
+                var add = Ext.create('Communion.view.Address');
                 add.getItems().items[0].getItems().items[2].items.items[2].setHidden(false);
                 add.getItems().items[0].getItems().items[2].items.items[5].setHidden(false);
                 Ext.Viewport.setActiveItem(add);   //{ xtype: 'address' }
@@ -127,7 +127,7 @@ Ext.define('vmlabs.controller.AddressController', {
     btnEditClick: function () {
 
         var record = Ext.getStore('addressstore').getData().all[0].getData();
-        var addressForm = Ext.create('vmlabs.view.AddressForm');
+        var addressForm = Ext.create('Communion.view.AddressForm');
         addressForm.setValues(record);
         Ext.Viewport.setActiveItem(addressForm);
         //this.getEditAddress().setValues(record);

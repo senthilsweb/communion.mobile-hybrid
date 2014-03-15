@@ -1,4 +1,4 @@
-﻿Ext.define('vmlabs.controller.ResidentsController', {
+﻿Ext.define('Communion.controller.ResidentsController', {
     extend: 'Ext.app.Controller',
     config: {
         refs: {
@@ -20,7 +20,7 @@
         var dob = recordData.DateOfBirth;
         var dateOfBirthValue;
         if (dob != null) {
-            dateOfBirthValue = vmlabs.classes.Utils.ConvertJsonDateToDDMMYYFormat(dob);
+            dateOfBirthValue = Communion.classes.Utils.ConvertJsonDateToDDMMYYFormat(dob);
         } else {
             dateOfBirthValue = null;
         }

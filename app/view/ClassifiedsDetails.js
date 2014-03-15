@@ -1,4 +1,4 @@
-﻿Ext.define('vmlabs.view.ClassifiedsDetails', {
+﻿Ext.define('Communion.view.ClassifiedsDetails', {
     extend: 'Ext.Panel',
     xtype: 'classifiedsdetails',
     config: {

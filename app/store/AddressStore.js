@@ -1,8 +1,8 @@
 ﻿
-Ext.define("vmlabs.store.AddressStore", {
+Ext.define("Communion.store.AddressStore", {
     extend: "Ext.data.Store",
     config: {
-        model: "vmlabs.model.AddressModel",
+        model: "Communion.model.AddressModel",
         autoLoad: true,
         storeId: 'addressstore',
         pageSize: 15

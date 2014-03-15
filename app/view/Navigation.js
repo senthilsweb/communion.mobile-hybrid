@@ -1,4 +1,4 @@
-Ext.define('vmlabs.view.Navigation', {
+Ext.define('Communion.view.Navigation', {
     extend: 'Ext.Panel',
     xtype: 'navigation', //xtype is an easy way to create Components without using the full class name
     config: {

@@ -1,4 +1,4 @@
-Ext.define('vmlabs.controller.LogoutController', {
+Ext.define('Communion.controller.LogoutController', {
     extend: 'Ext.app.Controller',
     config: {
         refs: {

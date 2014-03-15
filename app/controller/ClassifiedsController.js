@@ -1,6 +1,6 @@
 ﻿var detailsView;
 var latlng;
-Ext.define('vmlabs.controller.ClassifiedsController', {
+Ext.define('Communion.controller.ClassifiedsController', {
     extend: 'Ext.app.Controller',
     config: {
         refs: {
@@ -12,12 +12,12 @@ Ext.define('vmlabs.controller.ClassifiedsController', {
         }
     },
     classifiedsListDetails: function (list, record, target, index) {
-        vmlabs.app.Category = record.data.Code;
+        Communion.app.Category = record.data.Code;
         var classifiedStore = Ext.create('Ext.data.Store', {
-            model: 'vmlabs.model.YellowPagesModel',
+            model: 'Communion.model.YellowPagesModel',
             filters: {
                 property: 'CategoryCode',
-                value: vmlabs.app.Category
+                value: Communion.app.Category
             },
             autoLoad: true, //If set to true then the data will be retrieved during application launch
             clearOnPageLoad: true, //True to empty the store when loading another page via loadPage, nextPage or previousPage (defaults to true). Setting to false keeps existing records, allowing large data sets to be loaded one page at a time but rendered all together.

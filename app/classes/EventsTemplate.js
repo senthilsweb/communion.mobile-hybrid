@@ -1,10 +1,10 @@
-﻿Ext.define('vmlabs.classes.EventsTemplate', {
+﻿Ext.define('Communion.classes.EventsTemplate', {
     statics: {
         /*
         * A template for rendering a summary of an event.
         */
-    //startDate: vmlabs.classes.utils.ConvertJsonDateToDDMMYYFormat('{StartDate}'),
-    //endDate: vmlabs.classes.utils.ConvertJsonDateToDDMMYYFormat('{EndDate}'),
+    //startDate: Communion.classes.utils.ConvertJsonDateToDDMMYYFormat('{StartDate}'),
+    //endDate: Communion.classes.utils.ConvertJsonDateToDDMMYYFormat('{EndDate}'),
     eventsSummary: Ext.create('Ext.XTemplate',
 
         // Left Column

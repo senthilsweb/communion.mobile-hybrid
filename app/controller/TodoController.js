@@ -1,4 +1,4 @@
-﻿Ext.define('vmlabs.controller.TodoController', {
+﻿Ext.define('Communion.controller.TodoController', {
     extend: 'Ext.app.Controller',
     config: {
         refs: {
@@ -21,7 +21,7 @@
              '<div class="vm_dvList"></i><h4 class="vm_txtName"><span class="vm_listHeader"><label>' + todoValue.Name +'</label></span><span class="vm_dte"><tpl if="Date == null">NULL</tpl><tpl if="Date != \'null\'">' + todoValue.Date +'</tpl></span></h4>' 
                                
                 ];
-            var todo = Ext.create('vmlabs.view.TodoView');
+            var todo = Ext.create('Communion.view.TodoView');
             Ext.Viewport.setActiveItem(todo);   
             Ext.getCmp('MyTodos').setHtml(htmlValue);
 //            Ext.getCmp('MyTodos').hide();

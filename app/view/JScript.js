@@ -1,4 +1,4 @@
-﻿Ext.define('vmlabs.view.TitleBar', {
+﻿Ext.define('Communion.view.TitleBar', {
     extend: 'Ext.TitleBar',
     xtype: 'titlebar',
     config: {

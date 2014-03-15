@@ -1,7 +1,7 @@
-Ext.define('vmlabs.controller.DepartmentController', {
+Ext.define('Communion.controller.DepartmentController', {
     extend: 'Ext.app.Controller',
     config: {
-        stores: ['vmlabs.store.DepartmentStore'],
+        stores: ['Communion.store.DepartmentStore'],
         refs: {},
         control: {
             'departmentlist': { show: 'showDepartmentListToolBar' },

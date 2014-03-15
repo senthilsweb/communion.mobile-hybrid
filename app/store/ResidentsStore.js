@@ -1,7 +1,7 @@
-﻿Ext.define('vmlabs.store.ResidentsStore', {
+﻿Ext.define('Communion.store.ResidentsStore', {
     extend: 'Ext.data.Store',
     config: {
-        model: 'vmlabs.model.ResidentsModel',
+        model: 'Communion.model.ResidentsModel',
         grouper: {
             groupFn: function (record) {
                 return record.get('Name')[0];

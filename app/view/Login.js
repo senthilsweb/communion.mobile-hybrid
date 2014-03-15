@@ -1,4 +1,4 @@
-Ext.define("vmlabs.view.Login", {
+Ext.define("Communion.view.Login", {
     extend: "Ext.form.Panel",
     xtype: 'login',
    
@@ -11,7 +11,7 @@ Ext.define("vmlabs.view.Login", {
                 items: [
 
                     {
-                        xtype: 'vmlabslogintitlebar',                        
+                        xtype: 'Communionlogintitlebar',                        
                         docked: 'top'
                     }
                 ]

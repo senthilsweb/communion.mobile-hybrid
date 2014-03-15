@@ -1,7 +1,7 @@
-Ext.define('vmlabs.store.DepartmentStore', {
+Ext.define('Communion.store.DepartmentStore', {
     extend: 'Ext.data.Store',
     config: {
-        model: 'vmlabs.model.DepartmentModel',
+        model: 'Communion.model.DepartmentModel',
         sorters: [
             {
                 property : 'Id',
@@ -13,8 +13,8 @@ Ext.define('vmlabs.store.DepartmentStore', {
         pageSize: 5,
         proxy: {
             type: 'jsonp', //for cross domain calls
-            url: 'http://10.10.5.30/vmlabs-dev/department/0',
-            //url : 'http://localhost:85/Source/Vmlabs.Mobile/department.json',
+            url: 'http://10.10.5.30/Communion-dev/department/0',
+            //url : 'http://localhost:85/Source/Communion.Mobile/department.json',
             //url : 'http://wgo-hung-ror.herokuapp.com/users.json',
             /*pageParam: 'mypage',
             limitParam: 'mylimit',*/

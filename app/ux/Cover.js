@@ -6,7 +6,7 @@
  * @author Maximiliano Fierro
  * @notes Inspired on zflow: http://css-vfx.googlecode.com/ By Charles Ying
 */
-Ext.define('vmlabs.ux.Cover',{
+Ext.define('Communion.ux.Cover',{
     extend: 'Ext.DataView',
     xtype: 'cover',
 

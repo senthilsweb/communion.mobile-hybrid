@@ -1,4 +1,4 @@
-Ext.define('vmlabs.view.Address', {
+Ext.define('Communion.view.Address', {
     extend: 'Ext.form.Panel',
     xtype: 'address',
     config: {

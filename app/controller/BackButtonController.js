@@ -1,4 +1,4 @@
-﻿Ext.define('vmlabs.controller.BackButtonController', {
+﻿Ext.define('Communion.controller.BackButtonController', {
     extend: 'Ext.app.Controller',
     config: {
         refs: {

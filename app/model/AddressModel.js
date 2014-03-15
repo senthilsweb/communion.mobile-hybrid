@@ -1,4 +1,4 @@
-﻿Ext.define("vmlabs.model.AddressModel", {
+﻿Ext.define("Communion.model.AddressModel", {
     extend: "Ext.data.Model",
     config: {
         fields: [
@@ -18,7 +18,7 @@
             type: 'sqlitestorage',
             dbConfig: {
                 tablename: 'AddressDetails',
-                dbConn: vmlabs.util.InitSQLite.getConnection()
+                dbConn: Communion.util.InitSQLite.getConnection()
             }
         }
     }

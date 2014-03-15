@@ -5,7 +5,7 @@
  * Time: 5:20 PM
  * To change this template use File | Settings | File Templates.
  */
-Ext.define('vmlabs.controller.AdminStaffController', {
+Ext.define('Communion.controller.AdminStaffController', {
     extend: 'Ext.app.Controller',
     config: {
         refs: {
@@ -27,7 +27,7 @@ Ext.define('vmlabs.controller.AdminStaffController', {
         var dob = recordData.DateOfBirth;
         var dateOfBirthValue;
         if (dob != null) {
-            dateOfBirthValue = vmlabs.classes.Utils.ConvertJsonDateToDDMMYYFormat(dob);
+            dateOfBirthValue = Communion.classes.Utils.ConvertJsonDateToDDMMYYFormat(dob);
         } else {
             dateOfBirthValue = null;
         }

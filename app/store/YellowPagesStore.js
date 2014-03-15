@@ -1,7 +1,7 @@
-﻿Ext.define('vmlabs.store.YellowPagesStore', {
+﻿Ext.define('Communion.store.YellowPagesStore', {
     extend: 'Ext.data.Store',
     config: {
-        model: 'vmlabs.model.YellowPagesModel',
+        model: 'Communion.model.YellowPagesModel',
         remoteFilter: true,
         sorters: [
             {

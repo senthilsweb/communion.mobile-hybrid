@@ -1,4 +1,4 @@
-Ext.define('vmlabs.util.InitSQLite', {
+Ext.define('Communion.util.InitSQLite', {
   singleton : true,
 
   requires: [

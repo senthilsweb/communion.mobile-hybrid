@@ -1,4 +1,4 @@
-﻿Ext.define('vmlabs.controller.SettingsController', {
+﻿Ext.define('Communion.controller.SettingsController', {
     extend: 'Ext.app.Controller',
     config: {
         refs: {

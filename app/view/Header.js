@@ -5,7 +5,7 @@
  * Time: 9:47 AM
  * To change this template use File | Settings | File Templates.
  */
-Ext.define('vmlabs.view.Header', {
+Ext.define('Communion.view.Header', {
     extend: 'Ext.Panel',
     xtype: 'header',
     config: {

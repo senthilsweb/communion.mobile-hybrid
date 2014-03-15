@@ -1,5 +1,5 @@
 
-Ext.define('vmlabs.controller.TitleBarController', {
+Ext.define('Communion.controller.TitleBarController', {
     extend: 'Ext.app.Controller',
     config: {
         refs: {
@@ -71,7 +71,7 @@ Ext.define('vmlabs.controller.TitleBarController', {
             htmlValue = htmlValue + '<a>' + record.Website + '</a>'
             + '</address>';
 
-            var myAdd = Ext.create('vmlabs.view.Address'); //,{ id: 'myAdd' }
+            var myAdd = Ext.create('Communion.view.Address'); //,{ id: 'myAdd' }
             myAdd.getItems().items[0].getItems().items[2].items.items[2].setHidden(false);
             myAdd.getItems().items[0].getItems().items[2].items.items[5].setHidden(false);
             Ext.Viewport.setActiveItem(myAdd);

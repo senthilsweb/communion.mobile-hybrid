@@ -5,7 +5,7 @@
  * Time: 11:42 AM
  * To change this template use File | Settings | File Templates.
  */
-Ext.define('vmlabs.view.About', {
+Ext.define('Communion.view.About', {
     extend: 'Ext.Container',
     xtype: 'about',
     config: {

@@ -1,8 +1,8 @@
-﻿Ext.define("vmlabs.view.TodoView", {
+﻿Ext.define("Communion.view.TodoView", {
     extend: "Ext.form.Panel",
     xtype: 'todoview',
 //    requires: [
-//        'vmlabs.store.TodoStore',
+//        'Communion.store.TodoStore',
 //        'Ext.dataview.List'],
 
     config: {

@@ -1,4 +1,4 @@
-﻿Ext.define('vmlabs.view.ResidentDetailView', {
+﻿Ext.define('Communion.view.ResidentDetailView', {
     extend: 'Ext.Panel',
     xtype: 'residentdetailview',
     config: {

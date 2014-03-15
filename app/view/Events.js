@@ -1,7 +1,7 @@
 ﻿
-Ext.define('vmlabs.view.Events', {
+Ext.define('Communion.view.Events', {
     extend: 'Ext.Panel',
-    requires: ['vmlabs.store.EventsStore'],
+    requires: ['Communion.store.EventsStore'],
     xtype: 'events',
     config: {
         layout: 'fit',
@@ -21,7 +21,7 @@ Ext.define('vmlabs.view.Events', {
                         //onItemDisclosure: 'true',
                         //disableSelection: true,
                         store: 'EventsStore',
-                        itemTpl: vmlabs.classes.EventsTemplate.eventsSummary//,
+                        itemTpl: Communion.classes.EventsTemplate.eventsSummary//,
 //                        plugins: [
 //                            {
 //                                xclass: 'Ext.plugin.ListPaging',

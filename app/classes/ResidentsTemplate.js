@@ -1,4 +1,4 @@
-﻿Ext.define('vmlabs.classes.ResidentsTemplate', {
+﻿Ext.define('Communion.classes.ResidentsTemplate', {
     statics: {
         /*
         * A template for rendering a summary of a Resident.

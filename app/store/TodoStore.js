@@ -1,7 +1,7 @@
-﻿Ext.define("vmlabs.store.TodoStore", {
+﻿Ext.define("Communion.store.TodoStore", {
     extend: "Ext.data.Store",
     config: {
-        model: "vmlabs.model.TodoModel",
+        model: "Communion.model.TodoModel",
 
         autoLoad: true,
 

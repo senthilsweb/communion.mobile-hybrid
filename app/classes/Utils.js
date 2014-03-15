@@ -1,4 +1,4 @@
-﻿Ext.define('vmlabs.classes.Utils', {
+﻿Ext.define('Communion.classes.Utils', {
     singleton: true,
     ConvertJsonDateToDDMMYYFormat: function (value) {
         var dx = new Date(parseInt(value.substr(6)));

@@ -6,7 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 var flight;
-Ext.define('vmlabs.view.Footer', {
+Ext.define('Communion.view.Footer', {
     extend: 'Ext.Panel',
     xtype: 'footer',
     config: {

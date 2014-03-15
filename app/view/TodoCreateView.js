@@ -1,4 +1,4 @@
-﻿Ext.define('vmlabs.view.TodoCreateView', {
+﻿Ext.define('Communion.view.TodoCreateView', {
     extend: 'Ext.form.Panel',
     xtype: 'todocreateview',
     config: {

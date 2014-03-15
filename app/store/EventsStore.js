@@ -1,7 +1,7 @@
-﻿Ext.define('vmlabs.store.EventsStore', {
+﻿Ext.define('Communion.store.EventsStore', {
     extend: 'Ext.data.Store',
     config: {
-        model: 'vmlabs.model.EventsModel',
+        model: 'Communion.model.EventsModel',
 //        sorters: [
 //        {
 //        property : 'Id',

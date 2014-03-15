@@ -1,7 +1,7 @@
 ﻿
 
 
-Ext.define("vmlabs.model.TodoModel", {
+Ext.define("Communion.model.TodoModel", {
     extend: "Ext.data.Model",
     config: {
         fields:[
@@ -13,7 +13,7 @@ Ext.define("vmlabs.model.TodoModel", {
             type: 'sqlitestorage',
             dbConfig: {
                 tablename: 'TodoList',
-                dbConn: vmlabs.util.InitSQLite.getConnection()
+                dbConn: Communion.util.InitSQLite.getConnection()
             }
         }
     }

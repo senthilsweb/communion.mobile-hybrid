@@ -1,4 +1,4 @@
-﻿Ext.define('vmlabs.view.AdminStaffDetailView', {
+﻿Ext.define('Communion.view.AdminStaffDetailView', {
     extend: 'Ext.Panel',
     xtype: 'adminstaffdetailview',
     config: {

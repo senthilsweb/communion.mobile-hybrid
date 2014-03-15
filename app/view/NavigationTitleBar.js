@@ -1,4 +1,4 @@
-Ext.define('vmlabs.view.NavigationTitleBar', {
+Ext.define('Communion.view.NavigationTitleBar', {
     extend: 'Ext.TitleBar',
     xtype: 'navigationtitlebar',
     config: {

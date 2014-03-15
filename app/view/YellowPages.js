@@ -1,4 +1,4 @@
-﻿Ext.define('vmlabs.view.YellowPages', {
+﻿Ext.define('Communion.view.YellowPages', {
     extend: 'Ext.Panel',
     xtype: 'yellowpages',
     config: {

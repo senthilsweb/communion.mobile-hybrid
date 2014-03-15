@@ -1,4 +1,4 @@
-Ext.define('vmlabs.controller.LoginController', {
+Ext.define('Communion.controller.LoginController', {
     extend: 'Ext.app.Controller',
     config: {
         refs: {
@@ -32,7 +32,7 @@ Ext.define('vmlabs.controller.LoginController', {
 //            console.log("pass=" + Password)
 //            //TODO: Implement Authentication
 //            Ext.Ajax.request({
-//                url: 'http://10.10.5.30/VMLabs-DEV/Account/Authenticate',
+//                url: 'http://10.10.5.30/Communion-DEV/Account/Authenticate',
 //                headers: { "Content-Type": "application/json", "Accept": "application/json" },
 //                method: 'POST',
 //                type: 'JSON',
@@ -44,8 +44,8 @@ Ext.define('vmlabs.controller.LoginController', {
 //                    if (response.aaData.UserDetailsViewModel) {
 //                        console.log("Authentication success")
 //                        Ext.Viewport.unmask();
-//                        window.localStorage.setItem('vmlabs.user', result.responseText);
-//                        //window.localStorage("vmlabs.user") = result.aaData.UserDetailsViewModel;
+//                        window.localStorage.setItem('Communion.user', result.responseText);
+//                        //window.localStorage("Communion.user") = result.aaData.UserDetailsViewModel;
 //                        Ext.Viewport.setActiveItem({ xtype: 'navigation' });
 //                        //Ext.Viewport.setAc    tiveItem({xtype:'navigation'},{type: 'slide', direction: 'right'});
 //                    } else {

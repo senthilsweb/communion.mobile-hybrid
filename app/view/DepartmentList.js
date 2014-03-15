@@ -1,5 +1,5 @@
 
-Ext.define('vmlabs.view.DepartmentList', {
+Ext.define('Communion.view.DepartmentList', {
     extend: 'Ext.Panel',
     xtype: 'departmentlist',
     config: {
@@ -44,7 +44,7 @@ Ext.define('vmlabs.view.DepartmentList', {
 
     initialize: function () {
         
-        //this.getComponent("vmlabstitlebar").setTitle('Department');
-        //this.getComponent("vmlabstitlebar").getComponent("homeButton").hide();
+        //this.getComponent("Communiontitlebar").setTitle('Department');
+        //this.getComponent("Communiontitlebar").getComponent("homeButton").hide();
     }
 });

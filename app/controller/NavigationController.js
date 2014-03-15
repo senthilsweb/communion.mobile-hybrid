@@ -1,6 +1,6 @@
-Ext.define('vmlabs.controller.NavigationController', {
+Ext.define('Communion.controller.NavigationController', {
     extend: 'Ext.app.Controller',
-    requires: ['vmlabs.view.About', 'vmlabs.ux.Cover'],
+    requires: ['Communion.view.About', 'Communion.ux.Cover'],
     config: {
         refs: {
             'homeButton': 'titlebar button[action=home]'   // We can also use xtype i.e. loginForm:'login'
@@ -32,11 +32,11 @@ Ext.define('vmlabs.controller.NavigationController', {
         Ext.Viewport.setActiveItem({ xtype: 'yellowpages' });
     },
     btnAboutClick: function() {
-        var aboutView = Ext.create('vmlabs.view.About');
+        var aboutView = Ext.create('Communion.view.About');
         Ext.Viewport.setActiveItem(aboutView);
     },
     showAlbum: function(btn){
-        var cover = Ext.create('vmlabs.ux.Cover', {
+        var cover = Ext.create('Communion.ux.Cover', {
             itemCls: 'my-cover-item',
             //These are just for demo purposes.
             centered: true,
