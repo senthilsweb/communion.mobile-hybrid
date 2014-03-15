@@ -1,0 +1,148 @@
+﻿Ext.data.JsonP.callback1({
+  "aaData": {
+    "eventViewModels": [
+      {
+        "Id": 13,
+        "Name": "Aero India 2013",
+        "Description": "Aircraft Exhibition show of Indian Air Force. Aircraft from all over world will participate.",
+        "Location": "Air Force Station Yelhanka,  Bangalore",
+        "StartDate": "Wed Feb 06 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Sun Feb 10 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      },
+      {
+        "Id": 12,
+        "Name": "An Exhibition : Waste Habba",
+        "Description": "An Exhibition : Waste Habba, Wake Up Clean Up Bengaluru",
+        "Location": "Freedom Park Seshadripuram Bangalore",
+        "StartDate": "Fri Feb 08 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Sun Feb 10 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      },
+      {
+        "Id": 10,
+        "Name": "Carnatic Music (Vocal)",
+        "Description": "Carnatic Music (Vocal) by Mr. P. Suresh Shastri",
+        "Location": "Yavanika State Youth Centre State Youth Centre Nrupathunga Road Bangalore",
+        "StartDate": "Fri Feb 08 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Fri Feb 08 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      },
+      {
+        "Id": 5,
+        "Name": "Christmas Cebrations",
+        "Description": "Christmas celebrations in office",
+        "Location": "Vmoksha tech, bangalore",
+        "StartDate": "Wed Dec 25 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Wed Dec 25 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      },
+      {
+        "Id": 2,
+        "Name": "Diwali Celebrations @ Mantri residency",
+        "Description": "The contentious issue of Hyderabad will be decided after 11 years -- until then it will be the common capital of the three regions -- coastal Andhra, Rayalaseema and Telangana.",
+        "Location": "bangalore",
+        "StartDate": "Tue Feb 05 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Thu Feb 28 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      },
+      {
+        "Id": 11,
+        "Name": "English Play : Closer ",
+        "Description": "English Play : Closer directed by Siddhanth K S",
+        "Location": "Chowdaiah Memorial Hall 16th Cross, Gayathri Devi Park Extension, Malleswaram Vyalikaval Bangalore",
+        "StartDate": "Fri Feb 08 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Fri Feb 08 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      },
+      {
+        "Id": 16,
+        "Name": "E-Sparks 2013",
+        "Description": "E-Sparks 2013 - India's Premium E-commerce Showcase.e-Sparks will be a go-to-market enabler for e-commerce startups & entrepreneurs.",
+        "Location": "Spring Hall Royal Orchid Hotel, 1 Golf Avenue Old Airport Road Bangalore",
+        "StartDate": "Sat Feb 16 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Sat Feb 16 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      },
+      {
+        "Id": 14,
+        "Name": "Hip Hop Night",
+        "Description": "Hip Hop Night with DJ Lloyd",
+        "Location": "Vaayu Sky Lounge Eva Mall, 60, BJN Floor, Level-5 Brigade Road Bangalore",
+        "StartDate": "Fri Feb 08 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Fri Feb 08 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      },
+      {
+        "Id": 6,
+        "Name": "Holi Celebrations",
+        "Description": "@ 1st floor",
+        "Location": "Our apt",
+        "StartDate": "Tue Mar 26 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Tue Feb 26 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": false
+      },
+      {
+        "Id": 15,
+        "Name": "Kebab and Biryani Festival",
+        "Description": "Kebab and Biryani Festival",
+        "Location": "Fortune Select Loudon 21-B, Dr. U. N. Brahmachari Street Bangalore",
+        "StartDate": "Fri Feb 08 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Sat Feb 09 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      },
+      {
+        "Id": 3,
+        "Name": "Republic day festival @ Dunhill high. school",
+        "Description": "Sonia has informally proposed the three-point formula to resolve the six-decade-old Telangana tangle. Informed sources said that a Telangana Regional Council and Rayalaseema Development Council will be established, while Guntur will be given the status",
+        "Location": "hyd",
+        "StartDate": "Tue Feb 05 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Tue Feb 12 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      },
+      {
+        "Id": 7,
+        "Name": "Soccer",
+        "Description": "12th edition Soccer Fest for Men & Women, a five-a-side Inter-Corporate Football Tournament on a league cum knockout basis.",
+        "Location": "St. John’s Medical College Sports Complex, Koramangala, Bangalore",
+        "StartDate": "Sat Feb 23 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Sun Mar 03 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      },
+      {
+        "Id": 8,
+        "Name": "Throw Ball",
+        "Description": "8th edition of The Inter Corporate Women Throw ball Tournament on a league cum knock out basis. The Matches will be played only on Week Ends.",
+        "Location": "St. John’s Medical College Sports Complex, Koramangala, Bangalore",
+        "StartDate": "Sat Mar 23 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Sun Mar 24 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      },
+      {
+        "Id": 4,
+        "Name": "Ugadi Celebrations",
+        "Description": "According to highly placed sources, Congress president Sonia Gandhi",
+        "Location": null,
+        "StartDate": "Mon Feb 04 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Thu Feb 07 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      },
+      {
+        "Id": 9,
+        "Name": "Volley Ball",
+        "Description": "11th Edition of the Bangalore Events Men Volleyball Fest an Inter – Corporate Volley Ball Tournament on a league cum knock out basis. Women also could be part of the team.",
+        "Location": "St. John’s Medical College Sports Complex, Koramangala, Bangalore",
+        "StartDate": "Sat Mar 16 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "EndDate": "Sun Mar 17 2013 00:00:00 GMT+0530 (India Standard Time)",
+        "IsActive": true
+      }
+    ],
+    "Success": true,
+    "Message": null,
+    "PageIndex": 0,
+    "PageSize": 1000,
+    "TotalCount": 15,
+    "iTotalRecords": 15,
+    "iTotalDisplayRecords": 0
+  }
+});

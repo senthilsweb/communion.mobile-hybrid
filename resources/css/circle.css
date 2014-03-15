@@ -1,0 +1,18 @@
+/* CSS Document */
+.heading_logo{
+  width:50px;
+  height:50px;
+  display: inline-block;
+  border-radius:50px;
+  -moz-border-radius:50px;
+  -webkit-border-radius:50px;
+  -khtml-border-radius:50px;
+  border: 8px solid #6b9404; /*a7d956*/
+  font-family:comic sans ms;
+  font-size:20px;
+  font-weight:bold;
+  line-height:33px;
+  text-align:center;
+  background:#3373b8; /*3081FB*/
+}
+
