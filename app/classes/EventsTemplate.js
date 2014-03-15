@@ -7,7 +7,7 @@
     //endDate: Communion.classes.utils.ConvertJsonDateToDDMMYYFormat('{EndDate}'),
     eventsSummary: Ext.create('Ext.XTemplate',
 
-        // Left Column
+        // Left Column 
             '<div class="vm-custom-events-font ml-date">',
         // Date & Time
                 '<div class="vm-custom-events-font date-time">',
